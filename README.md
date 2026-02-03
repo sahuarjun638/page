@@ -25,3 +25,53 @@ Endpoints:
 - `POST /api/auth/login` { email, password }
 
 Responses include a simple JWT token for client use.
+
+
+
+
+
+
+
+# Frontend
+
+## Overview
+This is the frontend folder containing all user interface components and client-side code.
+
+## Structure
+```
+frontend/
+├── src/
+├── public/
+├── package.json
+└── README.md
+```
+
+## Getting Started
+
+### Prerequisites
+- Node.js installed
+- npm or yarn package manager
+
+### Installation
+```bash
+npm install
+```
+
+### Running the Project
+```bash
+npm start
+```
+
+### Building for Production
+```bash
+npm run build
+```
+
+## Technologies
+- React (or your framework)
+- CSS/SCSS
+- JavaScript/TypeScript
+
+## Contributing
+Please follow the project guidelines when contributing code.
+
